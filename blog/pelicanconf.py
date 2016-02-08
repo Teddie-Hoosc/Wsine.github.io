@@ -4,13 +4,30 @@ from __future__ import unicode_literals
 
 AUTHOR = 'Wsine'
 SITENAME = "Wsine's Blog"
-SITEURL = ''
+SITESUBTITLE = "To be simple, to be powerful."
+SITEURL = 'http://Wsine.github.io/blog'
+# SITEURL = '.'
+PROFILE_IMAGE_URL = 'https://secure.gravatar.com/avatar/31c16c481409b0922890da5266fabdeb.png?s=300'
 
+# Set the source files
 PATH = 'content'
+ARTICLE_PATHS = ['blog']
+ARTICLE_URL = '{date:%Y}/{date:%m}/{date:%d}/{slug}.html'
+ARTICLE_SAVE_AS = '{date:%Y}/{date:%m}/{date:%d}/{slug}.html'
+STATIC_PATHS = ['misc', 'img']
+MENUITEMS = [('blog', '/'), ('cv', '/misc/cv.pdf')]
 
-TIMEZONE = 'Asia/Shanghai'
+# Set the area
+TIMEZONE = 'America/Chicago'
+# TIMEZONE = 'Europe/Paris'
 
-DEFAULT_LANG = 'zh'
+# Set Language
+DEFAULT_LANG = 'en'
+# Set Date
+DATE_FORMATS = {
+    'en': ('usa','%a, %d %b %Y'),
+    'jp': ('jpn','%Y-%m-%d(%a)'),
+}
 
 # Feed generation is usually not desired when developing
 FEED_ALL_ATOM = None
@@ -18,6 +35,10 @@ CATEGORY_FEED_ATOM = None
 TRANSLATION_FEED_ATOM = None
 AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
+
+# feed
+FEED_RSS = 'feeds/rss.xml'
+FEED_MAX_ITEMS = 10
 
 # Blogroll
 LINKS = (('Pelican', 'http://getpelican.com/'),
@@ -29,7 +50,21 @@ LINKS = (('Pelican', 'http://getpelican.com/'),
 SOCIAL = (('You can add links in your config file', '#'),
           ('Another social link', '#'),)
 
-DEFAULT_PAGINATION = 5
+DEFAULT_PAGINATION = 3
 
 # Uncomment following line if you want document-relative URLs when developing
-#RELATIVE_URLS = True
+RELATIVE_URLS = True
+
+# Add Theme
+THEME = "crowsfoot"
+# THEME = "notmyidea"
+
+# Address
+EMAIL_ADDRESS = 'weizhy3@hotmail.com'
+GITHUB_ADDRESS = 'http://github.com/Wsine'
+# SO_ADDRESS = 'http://stackoverflow.com/users/1663558/james-porter'
+# TWITTER_ADDRESS = 'http://twitter.com/porterjamesj'
+
+# License
+LICENSE_NAME = "none"
+LICENSE_URL = "#"
