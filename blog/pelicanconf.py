@@ -6,7 +6,6 @@ AUTHOR = 'Wsine'
 SITENAME = "Wsine's Blog"
 SITESUBTITLE = "To be simple, to be powerful."
 SITEURL = 'http://Wsine.github.io/blog'
-# SITEURL = '.'
 PROFILE_IMAGE_URL = 'http://Wsine.github.io/blog/content/img/personImg.jpg'
 
 # Set the source files
@@ -36,7 +35,7 @@ AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 
 # feed
-FEED_RSS = '/blog/output/feeds/rss.xml'
+FEED_RSS = 'feeds/rss.xml'
 FEED_MAX_ITEMS = 10
 
 # Blogroll
@@ -55,7 +54,7 @@ DEFAULT_PAGINATION = 3
 RELATIVE_URLS = True
 
 # Add Theme
-THEME = "crowsfoot"
+THEME = "../crowsfoot"
 # THEME = "notmyidea"
 
 # Address
