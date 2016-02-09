@@ -15,7 +15,7 @@ ARTICLE_PATHS = ['blog']
 ARTICLE_URL = '{date:%Y}/{date:%m}/{date:%d}/{slug}.html'
 ARTICLE_SAVE_AS = '{date:%Y}/{date:%m}/{date:%d}/{slug}.html'
 STATIC_PATHS = ['misc', 'img']
-MENUITEMS = [('blog', '/'), ('cv', '/misc/cv.pdf')]
+MENUITEMS = [('blog', '/blog/output'), ('cv', '/blog/content/misc/cv.pdf')]
 
 # Set the area
 TIMEZONE = 'America/Chicago'
@@ -36,7 +36,7 @@ AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 
 # feed
-FEED_RSS = 'feeds/rss.xml'
+FEED_RSS = 'blog/output/feeds/rss.xml'
 FEED_MAX_ITEMS = 10
 
 # Blogroll
