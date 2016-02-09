@@ -7,7 +7,7 @@ SITENAME = "Wsine's Blog"
 SITESUBTITLE = "To be simple, to be powerful."
 SITEURL = 'http://Wsine.github.io/blog'
 # SITEURL = '.'
-PROFILE_IMAGE_URL = 'https://secure.gravatar.com/avatar/31c16c481409b0922890da5266fabdeb.png?s=300'
+PROFILE_IMAGE_URL = 'http://Wsine.github.io/blog/content/img/personImg.jpg'
 
 # Set the source files
 PATH = 'content'
@@ -19,7 +19,6 @@ MENUITEMS = [('blog', '/'), ('cv', '/misc/cv.pdf')]
 
 # Set the area
 TIMEZONE = 'America/Chicago'
-# TIMEZONE = 'Europe/Paris'
 
 # Set Language
 DEFAULT_LANG = 'en'
