@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Wsine's Blog</title><link>http://Wsine.github.io/blog/</link><description>To be simple, to be powerful.</description><atom:link href="http://Wsine.github.io/blog/feeds/rss.xml" rel="self"></atom:link><lastBuildDate>Mon, 08 Feb 2016 00:00:00 -0600</lastBuildDate><item><title>First Blog</title><link>http://Wsine.github.io/blog/2016/02/08/first-blog.html</link><description>&lt;h1&gt;First Blog&lt;/h1&gt;
-&lt;p&gt;Thanks Github page, pelican, and crowsfoot theme. I can build a new static blog easily and quickly.&lt;/p&gt;
-&lt;p&gt;I will update the blog so slowly, for my English is poor.&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Wsine</dc:creator><pubDate>Mon, 08 Feb 2016 00:00:00 -0600</pubDate><guid>tag:Wsine.github.io,2016-02-08:blog/2016/02/08/first-blog.html</guid></item></channel></rss>
