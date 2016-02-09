@@ -36,7 +36,7 @@ AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 
 # feed
-FEED_RSS = 'blog/output/feeds/rss.xml'
+FEED_RSS = '/blog/output/feeds/rss.xml'
 FEED_MAX_ITEMS = 10
 
 # Blogroll
