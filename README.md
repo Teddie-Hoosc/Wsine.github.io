@@ -1,2 +1,3 @@
 # Wsine.github.io
-My new public static blog in Github
+
+Personal static web page (out of date, needs to be constructed)
